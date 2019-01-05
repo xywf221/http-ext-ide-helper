@@ -1,99 +1,100 @@
 <?php
 /**
-* Http自动补全类(基于最新的3.2.0版本)
-* @author shixinke(http://www.shixinke.com)
-* @modified 2019/01/05
-*/
+ * Http自动补全类(基于最新的3.2.0版本)
+ * @author shixinke(http://www.shixinke.com)
+ * @modified 2019/01/05
+ */
 
 /**
-*
-*/
+ *
+ */
+
 namespace http\Encoding\Stream;
 class Dechunk extends \http\Encoding\Stream
 {
-    /**     
-    *
-    */
-    const FLUSH_NONE    =    0;
-
-    /**     
-    *
-    */
-    const FLUSH_SYNC    =    1048576;
-
-    /**     
-    *
-    */
-    const FLUSH_FULL    =    2097152;
+    /**
+     *
+     */
+    const FLUSH_NONE = 0;
 
     /**
-     * 
      *
-     * @example 
-     * @param  mixed $data 
-     * @param  mixed $decoded_len 
-     * @return 
      */
-    public static  function decode($data, $decoded_len)
+    const FLUSH_SYNC = 1048576;
+
+    /**
+     *
+     */
+    const FLUSH_FULL = 2097152;
+
+    /**
+     *
+     *
+     * @example
+     * @param  mixed $data
+     * @param  mixed $decoded_len
+     * @return
+     */
+    public static function decode($data, $decoded_len)
     {
-    
+
     }
 
     /**
-     * 
      *
-     * @example 
-     * @param  mixed $flags 
-     * @return 
+     *
+     * @example
+     * @param  mixed $flags
+     * @return
      */
     public function __construct($flags)
     {
-    
+
     }
 
     /**
-     * 
      *
-     * @example 
-     * @param  mixed $data 
-     * @return 
+     *
+     * @example
+     * @param  mixed $data
+     * @return
      */
     public function update($data)
     {
-    
+
     }
 
     /**
-     * 
      *
-     * @example 
-     * @return 
+     *
+     * @example
+     * @return
      */
     public function flush()
     {
-    
+
     }
 
     /**
-     * 
      *
-     * @example 
-     * @return 
+     *
+     * @example
+     * @return
      */
     public function done()
     {
-    
+
     }
 
     /**
-     * 
      *
-     * @example 
-     * @return 
+     *
+     * @example
+     * @return
      */
     public function finish()
     {
-    
+
     }
 
 }
