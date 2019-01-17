@@ -2,6 +2,8 @@
 
 namespace http\Client;
 
+use http\Cookie;
+
 /**
  * The http\Client\Response class represents an HTTP message the client returns as answer from a server to an http\Client\Request.
  * Class Response
@@ -13,11 +15,10 @@ class Response extends \http\Message implements \Traversable, \Iterator, \Serial
      * Extract response cookies.
      * @param  int $flags
      * @param  array $allowed_extras
-     * @return mixed
+     * @return Cookie[]|mixed
      */
     public function getCookies($flags = 0, $allowed_extras = null)
     {
-
     }
 
     /**
